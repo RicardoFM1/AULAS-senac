@@ -1,1 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h2 {
+    color: #e70808;
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px; 
+    color: #f7f0f0fb;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+    gap: 15px;
+}
+img {
+   width: 130px;
+   margin-top: 40px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+button {
+    padding-top: 150px;
+    padding-left: 700px;
+    color: white;
+    
+}
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h2>
+        NETFLIX
+    </h2>
+    <main>
+        <h1>Quem está assistindo?</h1>
+        <ul>
+            <li>
+                <img class="img1" src="perfil netflix.jpg" alt="">
+                <p>João</p>
+            </li>
+            <li>
+                <img class="img1" src="perfil netflix.jpg" alt="">
+                <p>Maria</p>
+            </li>
+            <li>
+                <img class="img1" src="perfil netflix.jpg" alt="">
+                <p>Pedro</p>
+            </li>
+            <li>
+                <img class="img1" src="perfil netflix.jpg" alt="">
+                <p>Ricardo</p>
+            </li>
+            <li>
+                <img class="img1" src="perfil netflix.jpg" alt="">
+                <p>Felipe</p>
+            </li>
+        </ul>
+        <div>
+             
+            
+            <button>
+            Gerenciar perfis
+
+            </button>
+            
+        </div>
+            
+        
+    </main>
+</body>
+</html>
